@@ -1,60 +1,151 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-  <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
 
-    <!-- Set the charset we're using to UTF-8 -->
-    <meta charset="UTF-8" />
+<head>
+  <!-- Set the page title -->
+  <title>ChadGPT - Private Plagiarism Consultant</title>
 
-    <!-- Set the screens default zoom / scale to 1 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Set the charset we're using to UTF-8 -->
+  <meta charset="UTF-8" />
 
-    <!-- Specifies the document mode for Internet Explorer -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Set the screens default zoom / scale to 1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
+  <!-- Specifies the document mode for Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- CSS -->
+  <!-- The following CSS has been added so that the page
     doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
-    <style>
-      /*
+  <!-- Ignore everything in the <style> tag for now -->
+  <!-- We will learn about CSS later in the course -->
+  <style>
+    /*
         These styles set the font, font-size, and add a
         little bit of space between lines
       */
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
-        line-height: 1.6;
-      }
-      /*
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.6;
+      text-align: center;
+      background-image: url(./docs/assets/img/background.jpg);
+      background-size: auto;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    /*
         These styles make sure that any super wide images
         don't overflow the page width
       */
-      img {
-        width: 100%;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <!--
+    img {
+      width: 15%;
+      display: block;
+      margin: auto;
+    }
 
-      LIST ANY CITATIONS HERE
+    fieldset {}
+  </style>
+</head>
 
-        * A
-        * B
-
+<body>
+  <!-- Citations -->
+  <!--
+      * Logo image sourced from [Raymond Xiao]
+      * Hero image sourced from [https://www.flaticon.com/free-icon/ai_826118]
+      * Background image sourced from  [https://unsplash.com/photos/8OyKWQgBsKQ]
     -->
+  <!-- Header Section -->
 
-    <!--
+  <header>
+    <img src="./docs/assets/logo/logo.ico" alt="Logo" id="logo"> <!-- Logo -->
+    <h1>Let AI Help You</h1>
+    <nav>
+      <a href="#hero">Introduction</a>
+      <a href="#content1">Pricing</a>
+      <a href="#content2">Testimony</a>
+    </nav>
+  </header>
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+  <!-- Main Section -->
+  <main>
+    <fieldset style="
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, .6);
+      color: #000000;">
+      <!-- Hero Section -->
+      <section id="hero">
+        <img src="./docs/assets/img/hero-image.png" alt="Hero Image" style="height: 50px; width: 50px;">
+        <h2>🚀 Introducing... ChadGPT! 🚀</h2>
+        <p>
+          Tired of being original? 😓 Want to sound smart without the effort? 🧠 Look no further!
+        </p>
+      </section>
 
-    -->
+      <!-- Content Section 1 -->
+      <section id="content1">
+        <h2>Introduction</h2>
+        <p style="width: 1000px; margin: auto;">Ever thought, "Why can't I just have someone else do the thinking for
+          me?" Well, now you can! Dive into the world of effortless "knowledge" with our state-of-the-art AI. Why be
+          original when you can be... well, not?</p>
+      </section>
 
-    <h1>Assignment 01 - To Be Completed</h1>
-  </body>
+      <!-- Content Section 2 -->
+      <section id="content2" style="width: 800px; margin: auto;">
+        <h2>Pricing</h2>
+        <h4>Free Tier: </h4>
+        <p>Just your dignity.</p>
+        <h4>Premium Tier: </h4>
+        <p>$4.20/month - Includes advanced "borrowing" features and a free "Totally Original" sticker.</p>
+        <h4>Ultra Mega Super Deluxe Tier: </h4>
+        <p>$69.69/year - Get everything in Premium plus a personal AI butler named Jeeves who whispers sweet plagiarized
+          nothings into your ear.</p>
+      </section>
+
+      <!-- Content Section 3 -->
+      <section id="content3" style="width: 800px; margin: auto;">
+        <h2>Testimonies</h2>
+        <p>🌟 Average Joe: "Ever since I started using ChadGPT, my digital swagger is off the charts. I went from Joe to
+          Woah!"</p>
+        <p>🌟 Siri: "I've seen many AIs, but ChadGPT? Now that's peak digital evolution. Respect."</p>
+        <p>🌟 Professor KnowItAll: "I thought I knew everything, but ChadGPT just flexed on my entire curriculum.
+          Students love it!"</p>
+      </section>
+
+      <!-- Form Section -->
+      <section>
+        <fieldset>
+          <legend>Contact Form</legend>
+          <h4>Contact us for details</h4>
+          <form action="#" method="post">
+            <label for="name">Student Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">School Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="studentID"> Student ID:</label>
+            <input type="text" id="studentID" name="studentID" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </fieldset>
+      </section>
+    </fieldset>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <img src="./docs/assets/logo/logo.ico" alt="Logo" id="footer-logo">
+    <h3>ChadGPT</h3>
+    <a href="#hero">Introduction</a>
+    <a href="#content1">Pricing</a>
+    <a href="#content2">Testimony</a>
+    <p>Ottawa, Ontario, Canada</p>
+    <p>&copy; 2023 Raymond Xiao</p>
+  </footer>
+</body>
+
 </html>
